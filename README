@@ -1,0 +1,15 @@
+Usage
+
+< Install >
+$ make
+$ insmod kmod.ko
+
+< Uninstall >
+$ rmmod kmod
+
+< Test >
+$ cd app
+$ gcc test.c
+$ ./a.out
+$ dmesg
+
